@@ -1,0 +1,94 @@
+.details{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    box-shadow: 0 5px 6px #555;
+    margin: auto;
+    position: relative;
+}
+.box-details .img-container{
+
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-details .img-container:hover{
+    background-size: 150%;
+    cursor: pointer ;
+}
+.box-details h2{
+    color:dodgerblue;
+    font-size: 30px;
+    margin:15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.box-details h1{
+    color:crimson;
+    font-size: 25px;
+    margin:15px;
+}
+.box-details p{
+    margin:15px;    
+}
+button{
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: #333;
+    color: white;
+}
+.colors button,
+.size button{
+    outline: none;
+    border: none;
+    width:35px;
+    height: 35px;
+}
+.amount{
+    display: flex;
+    align-items: left;
+}
+.amount button{
+    outline: none;
+    border: none;
+    width:45px;
+    height: 35px;
+    font-weight: bold;
+    margin: 4px;
+}
+.amount span{
+    margin: 10px;
+    color: crimson;
+}
+    .delete{
+    position: absolute;
+    top:0;
+    right:10px;
+    color: crimson;
+    font-weight: bold;
+    cursor: pointer;
+}
+.payment{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+}
+.payment h3{
+    color: crimson;
+}
+.payment button{
+   background-color: crimson;
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+   padding: 10px;
+   border:none;
+   width: 150px;
+}
